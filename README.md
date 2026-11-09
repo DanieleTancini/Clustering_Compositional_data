@@ -2,7 +2,7 @@ This repository contains the R code and the data required to reproduce the simul
 
 In particular, the repository contains two folders:
 
-**Simulation_study** contains the R code required to reproduce the estimation results for the three synthetic datasets, as well as the two additional analyses presented in Appendix B. In particular:
+**Simulation_study** contains the R code required to reproduce the estimation results for the three synthetic datasets, the model selection study, as well as the two additional analyses presented in Appendix B. In particular:
 - Exchange_simulation_1_Dirichlet_250_edges.R reproduces the estimation results for the Dirichlet model using the first synthetic dataset;
 - Exchange_simulation_2_Dirichlet_250_edges.R reproduces the estimation results for the Dirichlet model using the second synthetic dataset;
 - Exchange_simulation_3_Dirichlet_250_edges.R reproduces the estimation results for the Dirichlet model using the third synthetic dataset;
@@ -13,7 +13,7 @@ In particular, the repository contains two folders:
 - Sim_1_Dir_k1.R, Sim_1_Dir_k2.R, Sim_1_Dir_k3.R, Sim_1_Gau_k1.R, Sim_1_Gau_k2.R, Sim_1_Gau_k3.R, Mod_sel_Dir.R, and Mod_sel_Gau.R reproduce the results for model selection comparison;
 - Traceplot.R, Diagnostic.R, Posterior_summary.R, and Model_selection.R contain the code for producing the additional results reported in the paper.
 
-**Application** contains the R code required to reproduce the estimation results for the application, as well as the data. In particular:
+**Application** contains the R code and the data required to reproduce the estimation results for the application. In particular:
 - K1_apl_sum_exch.R reproduces the estimation results for the Dirichlet model when k=1;
 - K2_apl_sum_exch.R reproduces the estimation results for the Dirichlet model when k=2;
 - K3_apl_sum_exch.R reproduces the estimation results for the Dirichlet model when k=3;
