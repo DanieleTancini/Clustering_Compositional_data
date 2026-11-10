@@ -48,7 +48,7 @@ plot(alpha_par[4,2,], type = "l",
 
 #---------------------------------------------------
 
-load("Simulation_1_Gauss_250_edges.RData")
+load("Simulation_2_Gauss_250_edges.RData")
 
 
 quartz(width = 14, height = 8)
